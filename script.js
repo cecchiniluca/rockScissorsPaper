@@ -16,7 +16,7 @@ function getHumanChoice() {
     const humanChoice = prompt("Enter rock, scissors, or paper").trim().toLowerCase();
 }
 
-getHumanChoice()
+getHumanChoice();
 
 function playRound(humanChoice, computerChoice) {
     if (humanChoice === computerChoice) {
@@ -32,4 +32,4 @@ function playRound(humanChoice, computerChoice) {
     }
 }
 
-playRound()
+playRound();

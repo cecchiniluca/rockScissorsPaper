@@ -27,9 +27,13 @@ function playRound(humanChoice, computerChoice) {
         (humanChoice === "scissors" && computerChoice === "paper")
     ) {
         console.log(`You win this round. ${humanChoice} beats ${computerChoice}!`);
+        humanScore++
     } else {
         console.log("You lose this round!")
+        computerScore++;
     }
 }
 
-playRound();
+function playGame() {
+    
+}
